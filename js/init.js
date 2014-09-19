@@ -16,6 +16,7 @@ function init(){
 
 		//player with lowercase for new object. I think Player is reserved or something >_<
 		npcs.push(new Shop());
+		npcs.push(new Barbarian());
 
 		Player = new player();
 		Player.addToStage();
