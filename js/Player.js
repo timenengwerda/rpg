@@ -106,6 +106,7 @@ function player() {
 				timeRan += intvl;
 				if (timeRan >= timeTotal) {
 					this.stopBlinkInterval();
+					this.playerColor = 'red';
 				}
 			}, this), intvl);
 			

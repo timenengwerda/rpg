@@ -160,7 +160,7 @@ function Barbarian() {
 
 	this.doDamageToPlayer = function () {
 		if (Player) {
-			Player.decreaseHealth(this.damage, this.playerHitAllowedTime);
+			Player.decreaseHealth(this.damage, this.playerHitAllowedTime - 500);
 		}
 	}
 
